@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>The Game of Life</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="gridContainer"></div>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hra Života</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <h1>Hra Života</h1>
+    
     <div class="controls">
-      <button id="start">start</button>
-      <button id="clear">clear</button>
+        <button id="start">Start / Stop</button>
+        <button onclick="window.location.reload();">Reset</button>
     </div>
 
+    <div id="gridContainer"></div>
+
     <script src="java.js"></script>
-  </body>
+
+</body>
 </html>
